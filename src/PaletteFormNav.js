@@ -13,7 +13,7 @@ import Button from "@material-ui/core/Button";
 import styles from "./styles/PaletteFormNavStyles";
 
 function PaletteFormNav(props) {
-  const [newPaletteName, setnewPaletteName] = useState("");
+  // const [newPaletteName, setnewPaletteName] = useState("");
   const [formShowing, setformShowing] = useState(false);
 
   const showForm = () => {
